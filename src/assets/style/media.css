@@ -1,0 +1,233 @@
+
+@media screen and (max-width:1679px) {
+	.main_listing_section {
+		padding: 0 5em 0 !important;}
+		.participant_shuffle_box p {
+			font-size: 1.5em;
+		}
+}
+@media screen and (max-width:1440px) {
+	.main_listing_section { padding: 0 3em 0 !important; }
+	.participant_table tr th, .participant_table tr td {
+		font-size: 1.5em;
+		padding: 1em;
+	}
+	.action_icon {
+		width: 1.6em;
+		height: 1.6em;
+	}
+	.participant_table tr th:nth-child(4), .participant_table tr td:nth-child(4) { width: 15%;}
+}
+@media screen and (max-width:1300px) {
+	.participant_shuffle_box p {
+		font-size: 1.7em;
+	}
+}
+@media screen and (max-width:1200px) {
+	body { font-size: 1vw;}	
+	.christmas_content_box { left: 2em;}
+	.christmas_content_box h1 { margin-bottom: 0.8em;}
+	.a_btn { padding: 0.8125em 2em; }
+
+	.sufle_icon svg { margin-right: 0.5em; }
+	.dbl_box .btn { margin: 0 0.5em;}
+	.listing_page {
+		width: 60em;
+	}
+	
+	.participant_shuffle_box p {
+		font-size: 1.5em;
+	}	
+
+	.main_shuffle_section .back_svg {
+		display: unset;
+	}
+		
+}
+@media screen and (max-width:1024px) {
+	body { font-size: 1.4vw;}
+	.christmas_content_box h1 { margin-bottom: 1em;}
+	.main_section { align-items: flex-start; flex-wrap: wrap; padding-top: 13em;     background-size: 157%; background-position: top left;}
+	.bg_right_christmas_img { position: absolute; top: unset; text-align: center;}
+	.desktop_img { display: none;}
+	.mobile_img { display: block; }
+	/* .christmas_content_box h1 { padding: 0 0 0.5em 4.3em ;} */
+	/* .christmas_content_box {width: 100%;display: flex;align-items: center;left: 0;justify-content: space-between;padding: 0 0 0;} */
+	.christmas_content_box { padding-top: 1em; margin: 0 auto;}
+	.christmas_content_box h1:before {  font-size: 6em;}
+	.star_icon { top: -9.3em; left: 9em ;}
+	.bg_right_christmas_img img { width: 80%; height: 80%; margin: 0 auto; }
+	/* .christmas_content_box .dbl_box {flex-direction: column; align-items: center; margin-left: auto;}
+	.christmas_content_box .dbl_box .btn {margin: 0.5em 0;} */
+
+	.a_btn {font-size: 1.7em;}
+	.christmas_content_box h1 { margin-bottom: 1em; padding: 0 2em 0.5em 4.2em ;}
+
+	.main_listing_section { padding: 5em 2em 0 !important; }
+	.christmas_content_box { width: 100%;}
+	.mfp-container { font-size: 1.7vw;}
+	.participant_shuffle_center {
+		display: none;
+	}
+
+
+	.participant_shuffle_left p:before, .participant_shuffle_right p:before  {
+		content: attr(data-title) ":";
+		margin-right: 10px;
+		display: inline-block;
+		font-weight: 600;
+		min-width: 4em;
+	}
+	.participant_shuffle_title {
+		display: none;
+	} 
+	.participant_shuffle_box {
+		flex-wrap: wrap;
+	}
+	.participant_shuffle_box .participant_shuffle_left, .participant_shuffle_box .participant_shuffle_right {
+		width: 100%;
+		padding: 0;
+	}
+	.participant_shuffle_left {
+		padding-bottom: 1em;
+	}
+
+	.participant_shuffle_box {
+		padding: 2em;
+		width: auto;
+		background: #0F3F36;
+		box-shadow: 0px 0px 2em rgb(0 0 0 / 20%);
+		margin: 0 2em 2em;
+	}
+	
+	.main_shuffle_section .christmas_content_box.listing_page {
+		background: none;
+		box-shadow: unset;
+	}
+}
+@media screen and (max-width:767px) {
+	body {
+		font-size: 1.6vw;
+	}
+
+	.christmas_content_box {
+		width: auto;
+	}
+	.christmas_content_box h1 { margin-bottom: 1em; padding: 0 0 0.5em 4.2em; font-size: 7em;}
+	.main_section { padding-top: 15em;}
+	.star_icon {top: -14.3em;left: 16em;}
+	.star_icon img { width: 17.0625em; z-index: 1;}
+
+	.christmas_content_box .dbl_box { flex-direction: column;}
+	.christmas_content_box .dbl_box .btn { margin: 1em 0; }
+	.a_btn { font-size: 2em;}
+	.add_participants { max-width: 90%;padding: 3em;}
+	.add_participants h2 { font-size: 3em;}
+	.hedding_title { padding-bottom: 2em;}
+	.input_box input { padding: 1em;font-size: 1.9em;}
+	.submit_btn .a_btn { font-size: 2em;}
+	.close_icon svg { width: 2em ; height: 2em ;}
+
+	.close_icon { right: 1.6em; top: 1.6em;}
+	.bg_right_christmas_img img {
+		width: 120%;
+		height: 120%;
+		margin: 0 -10%;
+		max-width: unset;
+	}
+	.christmas_content_box h1 {margin-bottom: 0.5em;padding: 0 0 0.5em 4.2em;font-size: 5.7em;max-width: 8em;}
+	.christmas_content_box .dbl_box .a_btn {
+		min-width: 10em;
+		text-align: center;
+	}
+	.main_listing_section { padding: 10em 3em 0 !important;}
+	.listing_start { right: -3em; top: -5em ; }
+
+	.participant_table tr th, .participant_table tr td { font-size: 2em; padding: 0.8em 1em;}
+	.participant_table th{
+		display: none !important;
+	}
+	.participant_table td:before {
+		content: attr(data-title) ":";
+		margin-right: 10px;
+		display: inline-block;
+		font-weight: 600;
+		min-width: 4em;
+	}
+
+	.participant_table th { display: none !important; }
+    .participant_table td { display: flex; width: 100% !important; align-items: center; margin: 0 !important; padding: 10px 20px !important; border-left: 1px solid #a4a7e2; border-right: 1px solid #a4a7e2; }
+	.participant_table tr th, .participant_table tr td {
+		border: 0 !important;
+		font-size: 2.5em;
+		padding: 0.5em 0 !important;
+	}
+	.listing_page {
+		box-shadow: unset;
+		background:none ;
+	}
+	.title_white h2 {
+		color: #fff;
+		font-weight: 600;
+		font-size: 4em;
+	}
+	.back_svg {
+		display: block;
+		width: 3em;
+		height: 3em;
+	}
+	.participant_table table tbody tr {
+		padding: 2em 3em;
+		margin: 0 2em 3em;
+		border-radius: 10px;
+		width: auto !important;
+		display: block;
+		background: #0F3F36;
+		box-shadow: 0px 0px 1em rgb(0 0 0 / 20%);
+	}
+
+	.listing_start {
+		right: 2em;
+		top: -5em; 
+	}
+
+	::-webkit-scrollbar { width: 0.5em;}
+	.participant_table { margin: 0 -2em 0; }
+	.participant_table table tbody {	
+		max-height: 82vh;
+	  }
+
+	.delete_icon svg {
+		width: 7.454em;
+		height: 7.454em;
+	}
+	.delete_participant_box h3 { font-size: 2.3em;}
+	.delete_participant_box p { padding-bottom: 2em;  font-size: 1.7em;}
+	.delete_participant_box .dbl_box .a_btn { font-size: 1.8em;}
+	.action_icon { width: 1.4em; height: 1.4em; }	
+	.participant_shuffle_box p {
+		font-size: 2.2em;
+	}
+}
+
+
+
+@media screen and (max-width:479px) {
+	.main_listing_section { padding: 10em 2em 0 !important; }
+	.title_box { padding-bottom: 3em; }
+	.main_listing_section {
+		padding-top: 8em !important;
+	}
+	.mfp-container {
+		font-size: 2vw;
+	}
+	.delete_participant_box .dbl_box .a_btn { font-size: 2em;}
+	.input_box input {padding: 0.8em 1em;font-size: 1.9em;}
+	.participant_shuffle_box p {
+		font-size: 2.4em;
+	}
+
+	.main_shuffle_section .participant_shuffle {
+		max-height: 70vh;
+	}
+}
